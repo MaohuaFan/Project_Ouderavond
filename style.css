@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 */
-
+/*Basic CSS*/
 html {
   font-size: 62.5%;
 }
@@ -18,7 +18,7 @@ body {
   box-sizing: border-box;
   background-color: #154234;
 }
-
+/*Nav Menu*/
 nav {
   display: flex;
   width: 100%;
@@ -54,25 +54,12 @@ nav img {
   margin: 0;
 }
 
-/* Nieuw */
-
+/* Menu WIP voor later  */
 .active {
   color: #DBFF4A;
 }
 
-.tekst
-{
-  font-size: 24px;  
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  list-style-type: circle;
-}
-
-.tekst2
-{
-  font-size: 24px;  
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
+/*Menu Over Ons Dropdown Box*/
 .dropdown {
   display: inline-block;
   position: relative;
