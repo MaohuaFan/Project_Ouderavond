@@ -1,0 +1,74 @@
+/*
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*/
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Goldman", cursive;
+  /* Code komt van *{} vandaan */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #154234;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  padding: 0rem;
+  /*min-height: 8vh;*/
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: #006445;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+nav li {
+  font-size: 2.2rem;
+  padding: 0 4rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav img {
+  width: 14vw;
+  height: 7vw;
+  padding: 0;
+  margin: 0;
+}
+
+/* Nieuw */
+
+.active {
+  color: #DBFF4A;
+}
+
+.tekst
+{
+  font-size: 24px;  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  list-style-type: circle;
+}
+
+.tekst2
+{
+  font-size: 24px;  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
