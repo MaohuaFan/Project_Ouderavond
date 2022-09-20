@@ -8,6 +8,7 @@
 /*Basic CSS*/
 html {
   /*font-size: 62.5%;*/
+  font-size: 62.5%
 }
 
 body {
@@ -41,6 +42,7 @@ nav ul {
 nav li {
   font-size: 2.2rem;
   padding: 0 4rem;
+  /*font-size: 15px;*/
 }
 
 nav a {
@@ -88,4 +90,7 @@ nav img {
 footer { /*test*/
   height: 10%;
   background-color: blue;
+}
+section {
+  width: 50%;
 }
