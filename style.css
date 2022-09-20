@@ -7,7 +7,7 @@
 */
 /*Basic CSS*/
 html {
-  font-size: 62.5%;
+  /*font-size: 62.5%;*/
 }
 
 body {
@@ -17,6 +17,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: #154234;
+  height: 90%; /*Test*/
 }
 /*Nav Menu*/
 nav {
@@ -83,4 +84,8 @@ nav img {
 .dropdown-content a:hover {
   color: #FFFFFF;
   background-color: #00A4BD;
+}
+footer { /*test*/
+  height: 10%;
+  background-color: blue;
 }
