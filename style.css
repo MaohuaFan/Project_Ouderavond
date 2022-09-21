@@ -6,10 +6,6 @@
 }
 */
 /*Basic CSS*/
-html {
-  /*font-size: 62.5%;*/
-  font-size: 62.5%
-}
 
 body {
   font-family: "Goldman", cursive;
@@ -25,7 +21,6 @@ nav {
   display: flex;
   width: 100%;
   padding: 0rem;
-  /*min-height: 8vh;*/
   align-items: center;
   flex-wrap: wrap;
   margin: auto;
@@ -40,8 +35,8 @@ nav ul {
 }
 
 nav li {
-  font-size: 2.2rem;
-  padding: 0 4rem;
+  font-size: 25px;
+  padding: 22px;
   /*font-size: 15px;*/
 }
 
@@ -92,5 +87,19 @@ footer { /*test*/
   background-color: blue;
 }
 section {
-  width: 50%;
+  width: 45%;
+  float: left;
+  text-align: center;
+  font-size: 15px;
+  margin: 10px;
+}
+img {
+  width: 550px;
+  height: 600px;
+  float: right;
+  margin: 10px;
+}
+h1 {
+  font-size: 40px;
+  text-align: center;
 }
