@@ -43,8 +43,8 @@ nav li a {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #006445:
-  min-width: 20vw
+  background-color: #006445;
+  min-width: 20vw;
   z-index: 1;
   box-shadow: 0vw 0.5vw 1vw 0vw rgba(0,0,0,0.2);
   min-inline-size: 16vw;
