@@ -40,13 +40,17 @@ nav li a {
   display:inline-block;
 }
 
+a:hover {
+  color: #dbff4a;
+}
+
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #006445;
   min-width: 20vw;
   z-index: 1;
-  box-shadow: 0vw 0.5vw 1vw 0vw rgba(0,0,0,0.2);
+  box-shadow: 0.25vw 0.25vw 0.25vw 0.25vw rgba(0,0,0,0.3);
   min-inline-size: 16vw;
 }
 
@@ -57,10 +61,15 @@ nav li a {
   text-align: left;
 }
 
+.dropdown-content a:hover {
+  color: #dbff4a;
+}
+
 .dropdown:hover .dropdown-content {
   display: flex;
   flex-direction: row;
 }
+
 
 .tcr-logo {
   width: 11vw;
