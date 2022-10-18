@@ -5,16 +5,18 @@ nav {
     height: 10vh;
 }
 
-.tcr-logo {
-    max-width: 10vw;
-    max-height: 10vh;
-}
-  
 nav ul {
     list-style: none;
     display: flex;
     overflow:hidden;
 }
+
+.tcr-logo {
+    max-width: 10vw;
+    max-height: 10vh;
+}
+  
+
 
 .navigation {
     max-height: 100vh;
@@ -25,7 +27,7 @@ nav ul {
 .navigation li {
     align-self: center;
     font-size: 1.3vw; 
-    justify-content: space-between;    
+    justify-content: space-evenly;    
 }
 
 .navigation li a {
