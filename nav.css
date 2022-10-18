@@ -22,12 +22,15 @@ nav ul {
     max-height: 100vh;
     display: flex;
     flex-direction: row;
+    padding-left: 2.5vw;
 }
 
 .navigation li {
     align-self: center;
     font-size: 1.3vw; 
-    justify-content: space-evenly;    
+    justify-content: space-evenly;   
+    padding-left: 0.5vw;
+    padding-right: 0.5vw; 
 }
 
 .navigation li a {
