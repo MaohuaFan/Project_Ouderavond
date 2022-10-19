@@ -18,7 +18,8 @@ main {
 
 * h1 {
   font-style: italic;
-
+  font-size: 3vw;
+  text-align: center;
 }
 
 .index_section {
@@ -42,11 +43,6 @@ main {
   padding-right: 10vw;
 }
 
-h1 {
-  font-size: 3vw;
-  text-align: center;
-}
-
 footer { /*test*/
   position: absolute;
   bottom: 0;
@@ -55,6 +51,7 @@ footer { /*test*/
   height: 10vh;
   background-color: #006445;
   text-align: center;
+  font-size: 1vw;
   padding-top: 2.75vh;
   padding-right: 0.75vw;
 }
