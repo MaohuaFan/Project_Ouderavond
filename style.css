@@ -27,19 +27,19 @@ main {
   text-align: center;
   font-size: 1vw;
   padding-left: 10vw;
-  padding-top: 3vw;
-  padding-bottom: 3vw;
-  padding-right: 3vw;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  padding-right: 5vw;
 }
 
 .index_section_img img {
   width: 45vw;
   height: 75vh;
   float: right;
-  padding-left: 10vw;
-  padding-top: 1vw;
-  padding-bottom: 3vw;
-  padding-right: 3vw;
+  padding-left: 5vw;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  padding-right: 10vw;
 }
 
 h1 {
@@ -51,10 +51,12 @@ footer { /*test*/
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   height: 10vh;
-  background-color: blue;
-  overflow:auto;
+  background-color: #006445;
+  text-align: center;
+  padding-top: 2.75vh;
+  padding-right: 0.75vw;
 }
 
 /* Tip Rem  Html font size 62,5% = 10px */
