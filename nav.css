@@ -16,8 +16,6 @@ nav ul {
     max-height: 10vh;
 }
   
-
-
 .navigation {
     max-height: 100vh;
     display: flex;
@@ -74,3 +72,4 @@ nav .dropdown-content li a {
     flex-direction: row;
 }
 /*End Dropdown*/
+
