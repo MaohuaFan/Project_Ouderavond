@@ -7,7 +7,7 @@
 
 body {
   max-width: 100vw;
-  min-height: 110vh;
+  min-height: 100vh;
   background-color: #154234;
   position: relative;
 }
@@ -24,7 +24,7 @@ main {
 
 * h1 {
   font-style: italic;
-  font-size: 3vw;
+  font-size: 2.75vw;
   text-align: center;
 }
 
@@ -43,23 +43,32 @@ main {
   width: 45vw;
   height: 75vh;
   float: right;
-  padding-left: 5vw;
-  padding-top: 5vh;
-  padding-bottom: 5vh;
-  padding-right: 10vw;
+  padding-left: 4.5vw;
+  padding-top: 4.5vh;
+  padding-bottom: 4.5vh;
+  padding-right: 9vw;
 }
 
 footer { /*test*/
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 100vw;
-  height: 10vh;
+  width: 100%;
+  height: 9vh;
   background-color: #006445;
   text-align: center;
-  font-size: 1vw;
+  font-size: 0.9vw;
   padding-top: 3vh;
   padding-right: 1.5vw;
+}
+
+section {
+  width: 75vw;
+  padding-bottom: 10vh;
+  padding-left: 25vw;
+}
+section p {
+  font-style: italic;
 }
 
 /* Tip Rem  Html font size 62,5% = 10px */
