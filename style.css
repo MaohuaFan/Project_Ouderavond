@@ -28,25 +28,28 @@ main {
   text-align: center;
 }
 
-.index_section {
+section {
   width: 45vw;
-  float: left;
-  text-align: center;
-  font-size: 1vw;
-  padding-left: 10vw;
-  padding-top: 5vh;
-  padding-bottom: 5vh;
-  padding-right: 5vw;
+  padding-bottom: 10vh;
+  padding-left: 5vw;
+}
+
+* body main .index_section {
+  float: left; 
+}
+
+section p {
+  font-style: italic;
 }
 
 .index_section_img img {
   width: 45vw;
   height: 75vh;
-  float: right;
   padding-left: 4.5vw;
   padding-top: 4.5vh;
-  padding-bottom: 4.5vh;
+  padding-bottom: 10vh;
   padding-right: 9vw;
+  float:right;
 }
 
 footer { /*test*/
@@ -62,13 +65,6 @@ footer { /*test*/
   padding-right: 1.5vw;
 }
 
-section {
-  width: 75vw;
-  padding-bottom: 10vh;
-  padding-left: 25vw;
-}
-section p {
-  font-style: italic;
-}
+
 
 /* Tip Rem  Html font size 62,5% = 10px */
