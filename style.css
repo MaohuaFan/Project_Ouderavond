@@ -34,15 +34,16 @@ section {
   padding-left: 5vw;
 }
 
-* body main .index_section {
-  float: left; 
-}
 
 section p {
   font-style: italic;
 }
 
-.index_section_img img {
+.index_section {
+  float: left;
+}
+
+article img {
   width: 45vw;
   height: 75vh;
   padding-left: 4.5vw;
