@@ -70,4 +70,11 @@ footer { /*test*/
   color: black;
 }
 
+.over_ons {
+  text-align: center;
+  width: 100%;
+  padding-top: 2.5vh;
+  padding-left: 30%;
+  padding-right: 30%;
+}
 /* Tip Rem  Html font size 62,5% = 10px */
